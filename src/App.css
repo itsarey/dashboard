@@ -104,6 +104,26 @@ body {
 .sidebar-responsive {
   display: inline !important;
   position: absolute;
+
+
+  .sidebar-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .icon_header {
+    margin-right: 8px;
+  }
+  
+  .close_icon {
+    cursor: pointer;
+  }
+  
+  .sidebar-list {
+    width: 250px; /* Adjust width as needed */
+  }
   
   
 }
