@@ -3,7 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import Home from './components/Home'
-import FuelLogs from './components/fuelLogs'
+
 
 function App() {
   const [openSidebarToggle, setOpenSidebarToggle] = useState(false)
